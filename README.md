@@ -1,11 +1,42 @@
 # Avatar Realtime Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚧 **Work in Progress**
 
-Currently, two official plugins are available:
+This project is a demonstration of real-time avatar streaming, built with React, Vite, and TypeScript. It aims to showcase the integration of real-time technologies to create interactive avatar experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
+
+- **Frontend**: React, Vite, TypeScript, Heygen
+- **Backend**: Node.js (Express)
+- **Styling**: SCSS
+- **Linting**: ESLint
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/crisperpo/avatar-realtime-demo.git
+   cd avatar-realtime-demo
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**:
+
+   Create a `.env` file in the root directory based on the `.env.example` file.
+
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   The application will be available at [http://localhost:5173](http://localhost:5173).
 
 ## Expanding the ESLint configuration
 
@@ -48,3 +79,9 @@ export default tseslint.config({
   },
 })
 ```
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Built by [@crisperpo](https://github.com/crisperpo) with 💡
